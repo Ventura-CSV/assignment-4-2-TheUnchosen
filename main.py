@@ -11,7 +11,7 @@ def main():
     ########################################
     """
     i = 0
-    while i < N:
+    while i < (N - 2):
         a3 = a1 + a2
         result.append(a3)
         a1 = a2
