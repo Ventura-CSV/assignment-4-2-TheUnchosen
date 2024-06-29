@@ -10,6 +10,13 @@ def main():
     Code Your Program here
     ########################################
     """
+    i = 0
+    while i < N:
+        a3 = a1 + a2
+        result.append(a3)
+        a1 = a2
+        a2 = a3
+        i = i + 1
 
     ########################################
     # Do not delete the return statement
